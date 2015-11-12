@@ -1,5 +1,5 @@
 # Change these
-server '139.162.215.66', port: '80', roles: [:web, :app, :db], primary: true
+server '139.162.215.66', roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:ahmetabdi/swtor.git'
 set :application,     'swtor'
